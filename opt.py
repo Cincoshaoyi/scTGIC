@@ -11,7 +11,7 @@ parser.add_argument('--epoch', type=int, default=600)
 parser.add_argument('--pretrain', type=bool, default=False)
 
 # parameters
-parser.add_argument('--k', type=int, default=10)
+parser.add_argument('--k', type=int, default=50)
 parser.add_argument('--alpha_value', type=float, default=0.1)
 parser.add_argument('--lambda1', type=float, default=10)
 parser.add_argument('--lambda2', type=float, default=0.01)
